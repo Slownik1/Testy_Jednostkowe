@@ -1,6 +1,5 @@
 package pl.dawid.test;
 
-import sun.jvm.hotspot.debugger.Address;
 
 public class Account {
 
@@ -19,6 +18,20 @@ public class Account {
         this.active = true;
     }
 
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public Address getDefaultDeliveryAddress() {
+        return defaultDeliveryAddress;
+    }
+
+    public void setDefaultDeliveryAddress(Address defaultDeliveryAddress) {
+        this.defaultDeliveryAddress = defaultDeliveryAddress;
+    }
+
     public Account() {
+
+
     }
 }
